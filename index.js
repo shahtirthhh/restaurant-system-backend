@@ -8,7 +8,7 @@ const path = require("path");
 require("dotenv/config");
 
 const APP = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 const FOOD_ROUTES = require("./routes/foods");
 const ORDER_ROUTES = require("./routes/orders");
 
