@@ -107,3 +107,4 @@ async function connect_to_db() {
 }
 
 connect_to_db();
+module.exports.APP;
